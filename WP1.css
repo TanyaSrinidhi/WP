@@ -1,0 +1,183 @@
+#header {
+    font-size: 35px;
+	color: #DEB887;
+	font-weight: bold;	
+    padding: 0px;
+    font-family: "Curlz MT";
+    text-align: left;
+    background-color: black;
+}
+
+#header:hover, #header:active 
+{
+    background-color: black;
+}
+
+#logo {
+	
+	float: left;
+	margin: 10px 20px 30px 35%;
+	position: relative;
+
+}
+
+div.top 
+{
+    clear: left;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	padding-bottom: 10px;
+	z-index: 99;
+    
+}
+
+ul 
+{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+a:link, a:visited 
+{
+
+        display: block;
+        font-weight: bolder;
+        color: black;    
+        text-align: center;        
+        padding-top: 40px;
+        padding-bottom: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Book Antiqua";                
+        font-size: 15px;
+}
+
+a:hover, a:active
+{
+    background-color: black;
+    color: #DEB887;
+}
+
+
+.side
+{
+	background-color: #DEB887;
+	position: fixed;
+	left: 0;
+	top: 100;
+	width: 80px;
+	height: 100%;	
+	z-index: 90;
+}
+.one
+{
+	float: left;
+	margin: 200px 10px 200px 80px;
+	border-style: solid;
+	border-width: 25px; 	
+}
+
+.one:hover
+{
+    opacity: 0.7;
+}
+
+.two
+{
+    //height: 35px;
+    font-family: "Book Antiqua";
+    font-size: 30px;
+    color: #DEB887;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: black;
+    opacity: 0.6;
+}
+
+
+
+#box
+{
+    clear: left;
+	text-align: center;
+	font-family:"Book Antiqua";
+    font-size: 30px;		
+    margin-top: 0px;
+    color:#DEB887;
+    width: 100%;
+    margin-left: 6%;
+    border-style: solid;
+    border-width: 25px;
+    border-color: black;
+    border-left: none;
+    border-right: none;
+    
+}
+
+
+.img
+{
+    
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    padding-left: 120px;
+    overflow: hidden;    
+}
+
+.M1,.M2,.M3,.M4
+{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;    
+    border-style: solid;
+    border-width: 10px;
+}
+
+.M1:hover,.M2:hover,.M3:hover,.M4:hover
+{
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+            
+}
+
+
+body
+{
+	background-color:#320D0D; //#333333;
+        max-width: 100%;
+        overflow-x: hidden;
+}
+
+input
+{
+	width: 50%;
+	height: 25px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+
+footer
+{            
+    padding-top: 5px;
+    padding-bottom: 15px;
+    clear: left;
+    color:#DEB887; 
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;
+    
+}

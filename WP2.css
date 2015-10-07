@@ -1,0 +1,235 @@
+
+#header {
+    font-size: 35px;
+	color: #DEB887;
+	font-weight: bold;	
+    padding: 0px;
+    text-align: left;
+    font-family: "Curlz MT";
+
+}
+
+#header:hover, #header:active 
+{
+    background-color: black;
+}
+
+
+#logo {
+	
+	float: left;
+	margin: 10px 20px 30px 35%;
+	position: relative;
+
+}
+
+
+div.top 
+{
+	clear: left;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	padding-bottom: 10px;
+	z-index: 99;
+}
+
+ul 
+{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+a:link, a:visited 
+{
+
+        display: block;
+        font-weight: bolder;
+        color: black;    
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Book Antiqua";                
+        font-size: 15px;
+}
+
+a:hover, a:active
+{    
+    background-color: black;
+    color: #DEB887;
+}
+
+
+.side
+{
+	background-color: #DEB887;
+	position: fixed;
+	left: 0;
+    top:100px;
+	width: 80px;
+	height: 100%;	
+    z-index: 1;
+	
+}
+
+
+.p1
+{
+    margin-top: 60px;
+    margin-left: 300px;
+    background-color: black;
+    opacity: 0.6;
+    padding: 10px;
+    width: 500px;
+    font-size: 20px;
+    
+}
+
+
+#M1 a
+{
+    background-color: transparent;
+    padding: 0;
+}
+
+#M1 p
+{
+  //  z-index: 2;
+    width: 800px;
+    font-family: "Book Antiqua";                
+
+    color: #DEB887;
+}
+#M1 #book #link
+{
+    padding:0px;
+}
+
+#M1 #book #link:hover, #link:active
+{
+    background-color: red;
+}
+#M1 #book
+{
+    border-style: solid;
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    margin-right: 500px;
+    float: right;
+    margin: 30px;
+    text-align:center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#M1 
+{    
+    //background-color: black;
+    padding-bottom: 0px;
+    padding-left: 80px;
+    padding-top: 80px;
+    float: left;
+    margin: 20px;
+    font-weight: bold;
+    z-index: 1;   
+}
+
+.bgformovie
+{
+    width: 900px;
+    height: 500px;
+    margin-top: 250px;
+    margin-left: 20%;
+    background-color: black;
+    z-index: 0;
+}
+
+/* Referenced the following website to understand and create how to create a model window */
+/*http://www.webdesignerdepot.com/2012/10/creating-a-modal-window-with-html5-and-css3/ */
+     
+	.modalDialog {
+		position: fixed;
+		font-family: "Book Antiqua";
+        color: #DEB887;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		
+		z-index: 99999;
+		opacity:0;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		pointer-events: none;
+	}
+
+	
+	.modalDialog:target { 
+		opacity:1;
+		pointer-events: auto;
+	}
+
+	.modalDialog > div {
+		width: 900px;
+		position: relative;
+		margin: 10% auto;
+		padding: 3px 17px 10px 17px;
+		border-radius: 10px;
+        opacity: 0.97;
+		background: black;
+		background: -moz-linear-gradient(#fff, #999);
+	//	background: -webkit-linear-gradient(#fff, #999);
+		//background: -o-linear-gradient(#fff, #999);
+	}
+
+
+
+
+	.close {
+		background: #606061;
+        background-color: #320D0D ;
+		color: black; //#FFFFFF;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+		-moz-box-shadow: 1px 3px 5px #000;
+		-webkit-box-shadow: 1px 3px 5px #000;
+		box-shadow: 1px 3px 5px #000;
+	}
+
+	.close:hover { background: #00d9ff; }
+			
+footer
+{            
+    padding-top: 5px;
+    padding-bottom: 15px;
+    clear: left;
+    color:#DEB887; 
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;
+    
+}
+body
+{
+   background-color: #320D0D; 
+}

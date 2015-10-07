@@ -1,0 +1,179 @@
+#header {
+    font-size: 35px;
+    font-family: "Curlz MT";
+	color: #DEB887;
+	font-weight: bold;	
+    padding: 0px;
+    text-align: left;
+}
+
+#header:hover, #header:active 
+{
+    background-color: black;
+}
+
+
+#logo {
+	
+	float: left;
+	margin: 10px 20px 30px 35%;
+	position: relative;
+
+}
+
+
+div.top 
+{
+	clear: left;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	padding-bottom: 10px;
+	z-index: 99;
+}
+
+ul 
+{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+a:link, a:visited 
+{
+
+        display: block;
+        font-weight: bolder;
+        color: black;    
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Book Antiqua";                
+        font-size: 15px;
+}
+
+a:hover, a:active
+{    
+    background-color: black;
+    color: #DEB887;
+}
+
+
+.side
+{
+	background-color: #DEB887;
+	position: fixed;
+	left: 0;
+    top:100px;
+	width: 80px;
+	height: 100%;	
+    z-index: 1;
+	
+}
+
+.img
+{
+    
+    height: 300px;
+    width: 200px;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    padding-left: 120px;
+    overflow: hidden;    
+}
+
+.M1,.M2,.M3,.M4
+{
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;    
+    border-style: solid;
+    border-width: 10px;
+}
+
+.M1:hover,.M2:hover,.M3:hover,.M4:hover
+{
+    width: 250px;
+    height: 350px;
+    overflow: hidden;
+            
+}
+
+
+body {
+    background-color: #320D0D;
+}
+
+h2 {
+    margin-top: 130px;
+    color: #DEB887;
+    text-align: center;
+}
+
+p {
+    font-family: "Book Antiqua";
+    color: #DEB887;
+    font-size: 15px;
+	text-align: center;
+}
+
+fieldset{
+  border: 1px solid rgb (234,34,134);
+  width: 555px;
+  margin:auto;
+    color: #DEB887;
+    margin-bottom: 50px;
+}
+
+
+th
+{
+    background-color: black;
+    opacity: 0.6;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: #DEB887;
+    text-align: center;
+    height: 35px;
+}
+
+
+table {
+    
+    margin-top: 20px;
+  table-layout: fixed;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.film{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+	}
+	
+
+footer
+{            
+    padding-top: 5px;
+    padding-bottom: 15px;
+    clear: left;
+    color:#DEB887; 
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;
+    
+}	
+	
