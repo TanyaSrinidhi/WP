@@ -1,0 +1,139 @@
+#header {
+    font-size: 35px;
+    font-family: "Curlz MT";
+	color: #DEB887;
+	font-weight: bold;	
+    padding: 0px;
+    text-align: left;
+}
+
+#header:hover, #header:active 
+{
+    background-color: black;
+}
+
+#logo {
+	
+	float: left;
+	margin: 10px 20px 30px 35%;
+	position: relative;
+
+}
+
+
+div.top 
+{
+	clear: left;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	padding-bottom: 10px;
+	z-index: 99;
+    
+    
+}
+
+ul 
+{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+
+
+a:link, a:visited 
+{
+
+        display: block;
+        font-weight: bolder;
+        color: black;    
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Book Antiqua";                
+        font-size: 15px;
+    
+}
+
+
+a:hover, a:active
+{
+    background-color: black;
+    color: #DEB887;
+}
+
+
+.side
+{
+	background-color: #DEB887;
+	position: fixed;
+	left: 0;
+    top:100px;
+	width: 80px;
+	height: 100%;	
+    z-index: 1;
+	
+}
+
+body
+{
+    background-color:#320D0D;
+}
+footer
+{            
+    padding-top: 5px;
+    padding-bottom: 15px;
+    clear: left;
+    color:#DEB887; 
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;    
+}
+
+
+
+
+
+
+#tDetails
+{
+    float: left;
+}
+
+#tktpic
+{
+    float: left;
+    margin-left: 21%;
+    height: 343px;
+    width: 50px;
+//    margin-bottom: 10%;
+  //  margin-top: 10%;
+
+}
+#subticket
+{
+    font-family: "Courier New";
+    font-weight: bolder;
+    padding: 20px;
+    margin-left: 25%;
+    margin-top: 10%;
+    width: 700px;
+    height: 300px;    
+    border-style: solid;
+    background-color: #DEB887;
+}
+
+#mDetails
+{
+    float: right;
+}

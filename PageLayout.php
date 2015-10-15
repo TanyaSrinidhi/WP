@@ -7,7 +7,7 @@
 <div class="side">
 	<ul>
       <li> <a href=""></a></li>
-   	  <li> <a href="./bookamovie.php">BOOK A MOVIE</a> </li>
+   	  <li> <a href="./MovieService.php">BOOK A MOVIE</a> </li>
 	  <li> <a href="./SessionPage.php">SESSIONS</a> </li>
 	  <li> <a href="./ContactPage.php">CONTACT</a> </li>	  
 	</ul>

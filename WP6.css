@@ -1,0 +1,243 @@
+#header {
+    font-size: 35px;
+    font-family: "Curlz MT";
+	color: #DEB887;
+	font-weight: bold;	
+    padding: 0px;
+    text-align: left;
+}
+
+#header:hover, #header:active 
+{
+    background-color: black;
+}
+
+#logo {
+	
+	float: left;
+	margin: 10px 20px 30px 35%;
+	position: relative;
+
+}
+
+
+div.top 
+{
+	clear: left;
+	position: fixed;	
+	top: 0;
+	left: 0;
+	background-color: black;
+	width: 100%;
+	height: 90px;
+	padding-bottom: 10px;
+	z-index: 99;
+    
+    
+}
+
+ul 
+{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}
+
+
+
+a:link, a:visited 
+{
+
+        display: block;
+        font-weight: bolder;
+        color: black;    
+        text-align: center;
+        padding-bottom: 50px;
+        padding-top: 50px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: "Book Antiqua";                
+        font-size: 15px;
+    
+}
+
+
+a:hover, a:active
+{
+    background-color: black;
+    color: #DEB887;
+}
+
+
+.side
+{
+	background-color: #DEB887;
+	position: fixed;
+	left: 0;
+    top:100px;
+	width: 80px;
+	height: 100%;	
+    z-index: 1;
+	
+}
+
+body
+{
+    background-color:#320D0D;
+}
+footer
+{            
+    padding-top: 5px;
+    padding-bottom: 15px;
+    clear: left;
+    color:#DEB887; 
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    bottom: 0px;
+    background-color: black;
+    text-align: center;
+    z-index: 99;
+    
+}
+table, th, td {
+    //margin-top: 5%
+    //border: 1px solid black;
+    margin-top: 5%;
+    border-collapse: collapse;
+   // font-family: "Book Antiqua";
+    //color: #DEB887;
+}
+
+table
+{
+    margin-top: 
+}
+td
+{
+    width:300px;
+    //padding: 10px;
+    text-align: left;
+    font-size: 18px;
+}
+
+.tDetails
+{
+    float: left;
+    //color:#DEB887; 
+    margin-left: 2%;
+    //margin-top: 7%;
+    font-size: 18px;
+    
+}
+
+.tprice
+{
+    float: right;
+    margin-right: 35%;
+    font-size: 18px;
+    margin-top: 5%;
+    //margin-left: 10%;
+    //color:#DEB887; 
+
+}
+
+.tTotal
+{
+    float: right;
+    //color:#DEB887; 
+    margin-top: 7%;
+    font-size: 18px;
+    margin-right: 35%;
+}
+.mDetails
+{
+    //float: r;
+    font-size: 20px;
+    //color:#DEB887; 
+    margin-top: 6%;
+    //margin-right: 20%;
+    
+}
+
+.cDetails
+{
+    float: left;
+    font-size: 20px;
+    //color:#DEB887; 
+    margin-top: 6%;
+    margin-right: 24%;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+hr
+{
+    width: 900px;
+    border-color: #DEB887;
+    margin-top: 3%;    
+}
+
+#ticket
+{
+    width: 900px;
+    height: 500px;
+    margin-left: 20%;    
+    border-style: dotted;
+    background-color: #DEB887;
+}
+
+#tPrint #link
+{
+    padding:0px;
+}
+
+#tPrint #link:hover, #link:active
+{
+   // background-color: #DEB887;
+    color: black;
+}
+
+#tPrint
+{
+    border-style: solid;
+    height: 20px;
+    width: 150px;
+    background-color: #DEB887;
+    color: black;
+      margin-right: 0px;
+    border-style: solid;
+    background-color: #DEB887;
+    margin-top: 4%;;
+    margin-left: 45%;
+    margin-bottom: 5%;
+    text-align:center;
+    border-radius: 5px;
+    padding: 10px;
+    
+
+}
+
+
+
+
+
+
+#poster
+{
+    width: 200px;
+    height: 300px;
+    margin-top: 6%;
+    margin-left: 4%;
+    margin-bottom: 7%;
+    float: left;
+}
+
+h1#heading
+{
+    color:#DEB887;
+    margin-left: 30%;
+    text-align: center;
+    width: 500px;
+    margin-top: 13%;
+}

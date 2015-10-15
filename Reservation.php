@@ -8,11 +8,11 @@
         <title> Silverado Cinemas </title>
     </head>
     
-     <body -->
+     <body-->
         
-        <!--? php 
+        <? php 
         include 'PageLayout.php';
-        ? -->
+        ?>
          
         
         <?php

@@ -59,12 +59,67 @@ a:link, a:visited
     
 }
 
+
+#AddtoCart
+{
+    float: left;
+    font-family: "Book Antiqua";                
+    font-size: 15px;
+    font-weight: bolder;
+    color: black;
+    margin-right: 0px;
+    border-style: solid;
+    height: 50px;
+    width: 200px;
+    background-color: #DEB887;
+    margin-top: 20px;
+    margin-left: 5%;
+    text-align:center;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+#ViewCart 
+{
+    float:left;
+    
+    font-family: "Book Antiqua";                
+    font-size: 15px;
+    font-weight: bolder;
+
+    margin-right: 0px;
+    border-style: solid;
+    height: 30px;
+    width: 130px;
+    background-color: #DEB887;
+    margin-top: 20px;
+    margin-left: 35%;
+    text-align:center;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+
+
+
 a:hover, a:active
 {
     background-color: black;
     color: #DEB887;
 }
 
+#AddtoCart:hover, #AddtoCart:active
+{
+    background-color: #320D0D;
+    color: #DEB887;
+}
+
+#ViewCart:hover, #ViewCart:active
+{
+    background-color: #320D0D;
+    color: #DEB887;
+}
 
 .side
 {
@@ -85,7 +140,7 @@ body
 
 table, th, td {
     margin: 5% 25% 0% 25%;
-    border: 1px solid black;
+    border: 1px solid #DEB887;
     border-collapse: collapse;
     font-family: "Book Antiqua";
     color: #DEB887;
@@ -93,38 +148,6 @@ table, th, td {
 
 
 
-#AddtoCart #link
-{
-    padding:0px;
-    float: left;
-
-}
-
-#AddtoCart #link:hover, #link:active
-{
-    background-color: red;
-}
-
-#AddtoCart 
-{
-    margin-right: 0px;
-    border-style: solid;
-    height: 20px;
-    width: 120px;
-    background-color: red;
-    margin-top: 20px;
-    margin-left: 35%;
-    text-align:center;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-button
-{
-    height: 20px;
-    width: 120px;
-    margin-left: 35%;
-}
 
 
 #mname
@@ -145,7 +168,7 @@ th, td
 
 input
 {
-    margin-left: 55%;
+   // margin-left: 55%;
     margin-bottom: 10%;
 }
 

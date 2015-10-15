@@ -23,19 +23,16 @@
             <?php include 'Tickets.php' ?>
             
             <input type="hidden" name="price" id="price" value=>
-
-            <div id="ViewCart"><a id="link" href="./ShoppingCart.php">View Cart</a></div>
+                                 
+                <a id="ViewCart" href="./ShoppingCart.php">View Cart</a>            
 
             <?php include 'Reservation.php'; ?>
             
             
-            <input type="submit" id="submit" value="Add to Cart">
+            <input type="submit" id="AddtoCart" value="SAVE TO CART">
             
         </form>
         
-        
-        <!--?php include 'JScript.php' ?-->
-
         
         <?php include 'Footer.php' ?>
 
