@@ -9,7 +9,7 @@ session_start();
         
         
         <?php
-                //include 'PageLayout.php';
+                //include 'PageLayout.php';                
                 include 'functions.php';
 
             for($i = 0; $i < sizeof($_SESSION['cart']); $i++)
@@ -17,21 +17,13 @@ session_start();
                 $subtotal = 0;
                 $totalQuantity = 0;
            
-       //         echo "<div id='tDetails'>";
                 foreach($_SESSION['cart'][$i]['seats'] as $seatType => $quantity)
                 {
                     $subtotal = $subtotal + (TicketCost($seatType, $i) * $quantity);
                     $totalQuantity = $totalQuantity + $quantity;
-         //           echo $quantity."&#160&#160 x &#160&#160".SeatName($seatType)."<br>";
-           //         echo "$".TicketCost($seatType, $i)*$quantity."<br>";
+
                 }
-             /*   echo "Voucher discount:"."<br>";
-                echo "Total: $".$subtotal."<br>";
-                echo "</div>";
-                
-                echo "</div>";
-*/                
-                
+
                 //printing each ticket
                 
                 for($j = 1; $j <= $totalQuantity; $j++)
@@ -39,13 +31,14 @@ session_start();
                     echo "<img id='tktpic' src='tickett.png' height='350px' width='50px'>";
 
                     echo "<div id=subticket>";
-
-                    echo "<br>SILVERADO CINEMAS";
+                    echo "<div id=tktheading>";
+                    echo "SILVERADO CINEMAS";
+                    echo "</div>";
                     echo "<p>".MovieName($_SESSION['cart'][$i]['movie'])."</p>";
                     echo "<p>".Day($_SESSION['cart'][$i]['day']);
                     echo ", ".$_SESSION['cart'][$i]['time']."PM </p>";
                     foreach($_SESSION['cart'][$i]['seats'] as $seatType => $quantity)
-                        echo "<br><br><br><br><br>";
+                        echo "<br><br>";
                         echo SeatName($seatType)."<br>";
 
                     echo "Seat ".$j;
@@ -54,5 +47,5 @@ session_start();
             }
         ?>
     </body>
-    
+    <?php session_unset(); ?>
 </html>
