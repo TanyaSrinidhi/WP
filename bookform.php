@@ -33,7 +33,7 @@
             
         </form>
         
-        
+        <?php $_SESSION['voucher'] = "Enter voucher code"?> 
         <?php include 'Footer.php' ?>
 
     </body>

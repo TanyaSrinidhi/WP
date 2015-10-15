@@ -5,7 +5,7 @@
 
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
-	<head>
+	<!--head>
 	<script>
 	function discount() {
 	$voucher = "12345-67890-AZ";
@@ -38,9 +38,9 @@
 
 	
  <?php
-		if(isset($_POST['voucher'])){
-		$_SESSION['data'] = $POST['data']; 
-	}
+        //if(isset($_POST['voucher'])){
+		//$_SESSION['data'] = $POST['data']; 
+	//}
 ?>
 
 
@@ -50,8 +50,51 @@
 	<button onclick="discount()">Apply</button>
 	  
 	  
-	  <?php include 'footer.php';?>
+	  <?php //include 'footer.php';?>
     
     
-		</body>
+		</body-->
+        
+        <body>
+            <p>Voucher code: </p>
+            <form method="post" action="RegEx.php">
+            <input type="text" name="regex" pattern="\d{5}-\d{5}-[A-Z][A-Z]" title="invalid voucher code">
+            <input type="submit" value="Apply">
+            </form>            
+            
+        </body>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
 	</html>
